@@ -1,0 +1,1552 @@
+@media (max-width: 1260px) {
+
+    #tailleFenetre {
+        background: black;
+    }
+
+    .wrapper-container{
+        width: 100%;
+        padding: 0 40px;
+        /* border: 3px solid red; */
+    }
+
+/* -------------- HEADER --------------- */
+
+    .nav-content a {
+        letter-spacing: 1px;
+        padding: 0 12px;
+    }
+
+/* -------------- APPRENDRE EN GROUPE --------------- */
+
+    .aeg-bandeau-content {
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+    }
+
+    .aeg-bandeau-content img {
+        width: 7rem;
+    }
+
+    #aeg-left p {
+        font-size: 1.4rem;
+        letter-spacing: 3px;
+        width: 100%;
+        text-align: center;
+        margin-top: 6%;
+        font-weight: 400;
+    }
+
+/* -------------- Le bien être animal --------------- */
+
+    #be-content section:nth-last-of-type(1)
+    {
+        justify-content: flex-start;
+    }
+
+    #be-content section:nth-last-of-type(2)
+    {
+        justify-content: flex-end;
+    }
+
+    #be-content hr {
+        margin-top: 3%;
+        height: 2px;
+    }
+
+    #be-content h2 {
+        text-align: center;
+        font-size: 2vw;
+        letter-spacing: 5px;
+        width: 70%;
+        margin: 5%;
+    }
+
+    #be-content p {
+        font-size: 1.5rem;
+        letter-spacing: .3vw;
+        line-height: 3vw;
+    }
+
+/* -------------- Groupe Restreint --------------- */
+
+    #gp-right h2 {
+        font-size: 2.8vw;
+        letter-spacing: 5px;
+    }
+
+    #gp-right p {
+        font-size: 1.2vw;
+        margin-bottom: 6%;
+        width: 100%;
+        letter-spacing: .3vw;
+        font-weight: 400;
+    }
+
+/* -------------- CCM --------------- */
+
+    .box {
+        width: 250px;
+    }
+
+    .box p {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+
+/* -------------- Contact --------------- */
+
+    #contact-content {
+        width: 40%;
+        height: 70%;
+    }
+
+    #contact-logo {
+        width: 300px;
+        margin-bottom: 2%;
+    }
+
+    #contact-content p, h2, h1 {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    #contact-content input{
+        font-size: 1.5rem;
+        border: 2px solid black;
+        padding: 10px 25px;
+    }
+
+/* -------------- Beauté Féline --------------- */
+
+    #bf-content {
+        height: 60%;
+        margin-top: 60px;
+    }
+
+    #bf-right p:nth-of-type(1) {
+        font-size: 1.6rem;
+        letter-spacing: 3px;
+    }
+
+    #bf-right p:nth-of-type(2) {
+        font-size: 1.6rem;
+        letter-spacing: 5px;
+    }
+
+    #bf-right a {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        font-weight: bold;
+        padding: 10px 35px;
+    }
+
+    #bf-left {
+        align-items: flex-start;
+    }
+
+    #bf-right {
+        justify-content: flex-start;
+    }
+
+    /* -------------- La suite Canine --------------- */
+    
+
+    #lsc-left p {
+        font-size: 1.6rem;
+        letter-spacing: 5px;
+        width: 100%;
+    }
+
+    #lsc-content {
+        height: 60%;
+        margin-top: 60px;
+
+    }
+
+    #lsc-right {
+        align-items: flex-start;
+    }
+
+    #lsc-left {
+        justify-content: flex-start;
+
+    }
+
+    #lsc-contact p, a {
+        font-size: 1.6rem;
+        letter-spacing: .3vw;
+        padding-bottom: .5%;
+    }
+
+/* -------------- FOOTER --------------- */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 18vw;
+    }
+
+    footer img {
+        width: 10%;
+        margin-bottom: 2vw;
+    }
+
+    footer ul {
+        display: flex;
+        margin-bottom: 1vw;
+    }
+
+    footer a {
+        font-size: 1.2rem;
+        padding: 0 2rem;
+    }
+
+    footer hr {
+        background: #000;
+        width: 90%;
+        height: 1px;
+        margin-bottom: 2.5vw;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+        letter-spacing: .2vw;
+    }
+
+
+}
+
+
+@media (max-width: 955px) {
+
+    #tailleFenetre {
+        background: orange;
+    }
+
+/* -------------- HEADER --------------- */
+
+    header {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+/* NAVIGATION BAR */
+
+
+    #bgMenu {
+        z-index: 1000;
+        display: block;
+    }
+
+    #bgMenu img {
+        position: absolute;
+        right: 100px;
+        height: 25px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    #bgMenu img:hover {
+        transform: scale(110%);
+    }
+
+    #closeNav {
+        display: flex;
+        position: absolute;
+        right: 100px;
+        top: 100px;
+        font-size: 2rem;
+        border: 3px solid black;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-weight: 800;
+    }
+
+    #navigationMenu {
+        display: none;
+    }
+    
+    #navigationMenu.active {
+        display: flex;
+        z-index: 1000;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.711);
+        backdrop-filter: blur(5px);
+    }
+    
+    .nav-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 60%;
+    }
+    
+    .nav-content ul {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .nav-content li {
+        margin-top: 5rem;
+    }
+    
+    .nav-content a {
+        font-size: 2rem;
+    }
+    
+    #ig-logo img {
+        width: 100%;
+    }
+    
+    #hero-left h4 {
+        width: 100%;
+    }
+    
+    #hero-left a {
+        font-size: 1.2rem;
+    }
+    
+    /* -------------- APPRENDRE EN GROUPE --------------- */
+    
+    
+    
+    #aeg-left h2 {
+        font-size: 2.5rem;
+        letter-spacing: 3px;
+    }
+    
+    
+    /* -------------- Le bien être animal --------------- */
+    
+    #be-content h2 {
+        font-size: 2.1rem;
+        letter-spacing: 3px;
+        width: 80%;
+    }
+
+    .be-border {
+        justify-content: center;
+    }
+    
+    #be-content {
+        width: 60%;
+        height: 80%;
+    }
+    
+    #be-content hr {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        height: 2px;
+    }
+    
+    
+    #be-content p {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        line-height: 25px;
+    }
+    
+    /* -------------- Groupe Restreint --------------- */
+    
+    #gp-left img {
+        width: 300px;
+        margin-right: 10%;
+    }
+    #gp-right h2 {
+        font-size: 2.8vw;
+        letter-spacing: .3vw;
+    }
+    
+    #gp-right p {
+        font-size: 1.4rem;
+        letter-spacing: .2vw;
+    }
+    
+    /* -------------- CCM --------------- */
+    
+    
+    #ccm-header hr {
+        width: 25vw;
+        margin: 0 60px;
+    }
+    
+    .box {
+        width: 200px;
+        height: 50%;
+    }
+    
+    .box p {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+    
+    /* -------------- Contact --------------- */
+    
+    #contact-content {
+        width: 40%;
+        height: 70%;
+    }
+    
+    #contact-logo {
+        width: 250px;
+        margin-bottom: 2%;
+    }
+    
+    #contact-content p, h2, h1 {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+    
+    #contact-content input{
+        font-size: 1.5rem;
+        border: 2px solid black;
+        padding: 10px 25px;
+    }
+    
+    /* -------------- Beauté Féline --------------- */
+    
+
+    .part-title {
+        padding-top: 25%;
+    }
+
+    .part-title h1{
+        font-size: 3.8rem;
+        font-weight: bold;
+    }
+    
+    #bf-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    #bf-header img {
+        width: 150px;
+    }
+    
+    #bf-content {
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        margin-top: 20px;
+    }
+    
+    #bf-content section {
+        width: 100%;
+    }
+    
+    #bf-right p:nth-of-type(1) {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    #bf-right p:nth-of-type(2) {
+        font-size: 1.4rem;
+        letter-spacing: 5px;
+    }
+    
+    #bf-right a {
+        font-size: 1.4rem;
+        padding: 7px 28px;
+        margin: 30px 0;
+    
+    }
+    
+    #bf-left {
+        justify-content: flex-start;
+        height: 28%;
+    }
+    
+    
+    #bf-left img {
+        max-width: 400px;
+        width: auto;
+        height: 100%;
+    }
+    
+    #bf-right {
+        justify-content: center;
+    }
+    
+    /* -------------- La suite Canine --------------- */
+    
+    
+    
+    #lsc-header {
+        margin-top: 120px;
+        align-items: flex-start;
+    }
+    
+    #lsc-header h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 8px;
+    }
+    
+    #lsc-header p {
+        font-size: 2rem;
+        letter-spacing: 3px;
+    
+    }
+    
+    #lsc-left p {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+        width: 100%;
+    }
+    
+    #lsc-content {
+        position: relative;
+        height: 80%;
+        margin-top: 30px;
+        flex-direction: column;     
+    }
+    
+    #lsc-content section{
+        width: 100%;
+    } 
+    
+    
+    #lsc-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 28%;
+    }
+    
+    #lsc-right img {
+        width: auto;
+        height: 100%;
+    }
+    
+    #lsc-left {
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+        height: 60%;
+        justify-content: flex-start;
+    }
+    
+    #lsc-contact p, a {
+        font-size: 1.4rem;
+        letter-spacing: .3vw;
+        padding-bottom: .5%;
+    }
+}
+        
+
+
+
+@media (max-width: 780px) {
+
+    #tailleFenetre {
+        background: green;
+    }
+
+
+    /* -------------- HEADER --------------- */
+
+    .nav-content li {
+        margin-top: 2.5rem;
+    }
+
+    .nav-content a {
+        font-size: 3vw;
+    }
+
+    #bgMenu img {
+        position: absolute;
+        right: 10%;
+        margin-top: 10%;
+        height: 3.5vw;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+
+    /* HERO */
+
+    .hero-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hero-right {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: auto;
+    }
+
+    #hero-right img{
+        max-width: 450px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 20px 24px 21px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    #hero-left {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero-logo {
+        position: absolute;
+        top: 0;
+        width: clamp(18rem, 30vw, 20rem);
+        /* width: 30vw; */
+        margin-top: 6%;
+    }
+
+    #hero-left p {
+        position: absolute;
+        display: none;
+        top: 18%;
+        font-size: 2rem;
+    }
+
+    #hero-left h4 {
+        position: absolute;
+        bottom: 10%;
+        font-size: 1.2rem;
+        letter-spacing: 5px;
+        text-align: center;
+        width: 80%;
+        margin-bottom: 12%;
+        font-style: italic;
+    }
+
+    #hero-left a {
+        position: absolute;
+        bottom: 7%;
+        font-size: 1.2rem;
+        letter-spacing: 5px;
+        padding: 10px 25px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    /* -------------- APPRENDRE EN GROUPE --------------- */
+
+    #apprendreEnGroupe {
+        max-height: 1200px;
+        min-height: 970px;
+    }
+
+    .aeg-bandeau {
+        background: #E4DDD7;
+        height: 18%;
+    }
+
+    .aeg-bandeau-content {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+    }
+
+    .aeg-bandeau-content img {
+        width: 5.5rem;
+    }
+
+    .aeg-content {
+        width: 90%;
+        height: 82%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #aeg-left {
+        height: auto;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #aeg-right {
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    #aeg-left h2 {
+        font-size: 3.5vw;
+        letter-spacing: 3px;
+        margin-top: 0%;
+    }
+
+    #aeg-left h5 {
+        font-size: 2.5vw;
+        letter-spacing: 5px;
+        font-style: italic;
+        margin-bottom: 5%;
+    }
+    
+    #aeg-left p {
+        font-size: 2vw;
+        letter-spacing: 3px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #aeg-right img {
+        margin-top: 10%;
+        width: auto;
+        height: 50vw;
+        border-radius: 10px;
+        box-shadow: -10px 6px 16px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    /* -------------- Le bien être animal --------------- */
+
+    #bien-etre {
+        background: #7b7b76;
+    }
+
+    #be-content h2 {
+        font-size: 2.5rem;
+        letter-spacing: 3px;
+        width: 80%;
+    }
+    
+    #be-content {
+        background: #7b7b76;
+        width: 100%;
+        height: 100%;
+        box-shadow:none;
+        border-radius: 0;
+        padding: 0 10%;
+    }
+    
+    #be-content hr {
+        margin-top: 30px;
+        height: 2px;
+    }
+    
+    
+    #be-content p {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        line-height: 4vw;
+    }
+
+    /* -------------- Groupe Restreint --------------- */
+
+    #groupeRestreint {
+        background: #656C5C;
+        height: 100vh;
+    }
+
+    #gp-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    #gp-content section {
+        width: 100%;
+    }
+
+    #gp-left {
+        margin-top: 70px;
+        position: relative;
+        height: 35%;
+    }
+
+
+    #gp-right {
+        height: 60%;
+        align-items: center;
+    }
+
+
+    #gp-left img {
+        width: auto;
+        height: 95%;
+        box-shadow: -18px 19px 23px -11px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #gp-right h2 {
+        font-size: 4vw;
+        letter-spacing: 1vw;
+        width: 90%;
+    }
+    
+    #gp-right p {
+        font-size: 1.4rem;
+        letter-spacing: .2vw;
+        width: 90%;
+    }
+
+        /* -------------- CCM --------------- */
+
+        #ccm-header {
+            height: 15%;
+        }
+
+        #ccm-header hr {
+            display: none;
+        }
+
+        #ccm-header h2 {
+            /* font-size: 2.3vw; */
+            font-size: 1.8rem;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+    
+
+        #ccm-content {
+            height: 85%;
+            flex-direction: column;
+        }
+
+
+        .cercle {
+            height: 60px;
+            width: 60px;
+            margin-top: 0;
+        }
+
+
+        .box {
+            justify-content: center;
+            width: 200px;
+            height: 200px;
+        }
+        
+        .box p {
+            font-size: 1.1rem;
+            letter-spacing: 3px;
+            margin-top: 20px;
+        }
+
+
+        .box h5 {
+            font-size: 2rem;
+            color: #fff;
+        }
+
+            /* -------------- Contact --------------- */
+        
+        #contact-content {
+            max-width: 400px;
+            width: 80%;
+        }
+        
+        #contact-logo {
+            width: 80%;
+        }
+        
+        #contact-content p, h2, h1 {
+            font-size: 1.3rem;
+            letter-spacing: 3px;
+        }
+        
+        #contact-content input{
+            font-size: 1.3rem;
+            border: 2px solid black;
+            padding: 10px 25px;
+        }
+
+        /* -------------- Beauté Féline --------------- */
+        
+        .part-title h1{
+            position: absolute;
+            top: 60px;
+            right: 80px;
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+        
+        #bf-header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        #bf-header p {
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+            margin-top: 10px;
+        }
+        
+        #bf-header img {
+            width: 150px;
+        }
+        
+        #bf-content {
+            flex-direction: column;
+            align-items: center;
+            height: 70%;
+            margin-top: 20px;
+        }
+        
+        #bf-content section {
+            width: 100%;
+        }
+        
+        #bf-right p:nth-of-type(1) {
+            font-size: 1.3rem;
+            letter-spacing: 3px;
+            width: 100%;
+            margin-top: 30px;
+        }
+        
+        #bf-right p:nth-of-type(2) {
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+        }
+        
+        #bf-right a {
+            font-size: 1.3rem;
+            padding: 7px 28px;
+            margin: 30px 0;        
+        }
+        
+        #bf-left {
+            justify-content: center;
+            height: 40%;
+        }
+        
+        
+        #bf-left img {
+            max-width: 400px;
+            width: auto;
+            height: 100%;
+        }
+        
+        #bf-right {
+            align-items: center;
+            justify-content: center;
+            height: auto;
+        }
+        
+        /* -------------- La suite Canine --------------- */
+        
+        #lsc {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        
+        #lsc-header {
+            margin-top: 0;
+            align-items: flex-start;
+            margin-bottom: 0;
+        }
+        
+        #lsc-header h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 8px;
+        }
+        
+        #lsc-header p {
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+        
+        }
+        
+        #lsc-left p {
+            font-size: 1.4rem;
+            letter-spacing: 3px;
+            width: 100%;
+        }
+        
+        #lsc-content {
+            height: 80%;
+            margin-top: 0;
+            flex-direction: column;   
+
+        }
+        
+        
+        #lsc-content section{
+            width: 100%;
+        } 
+        
+        
+        #lsc-right {
+            position: absolute;
+            top: 30px;
+            left: 0;
+            align-items: center;
+            justify-content: center;
+            height: 30%;
+        }
+        
+        #lsc-right img {
+            width: auto;
+            height: 100%;
+        }
+        
+        #lsc-left {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            justify-content: flex-start;
+
+        }
+        
+        #lsc-contact p, a {
+            font-size: 1.4rem;
+            letter-spacing: 3px;
+            padding-bottom: 0;
+        }
+
+    /* -------------- FOOTER --------------- */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+    }
+
+    footer img {
+        width: 20%;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        height: 40%;
+    }
+
+    footer a {
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+
+    footer hr {
+        background: #000;
+        width: 90%;
+        height: 1px;
+        margin-bottom: 0;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+        letter-spacing: .2vw;
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .wrapper-container{
+        width: 100%;
+        padding: 0 30px;
+        /* border: 3px solid red; */
+    }
+
+    #tailleFenetre {
+        background: rebeccapurple;
+    }
+
+
+/* -------------- HEADER --------------- */
+
+    header {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 750px;
+        max-height: 840px;
+    }
+
+    #hero-logo {
+        position: absolute;
+        top: 0;
+        width: 17rem;
+        /* width: 30vw; */
+        margin-top: 6%;
+    }
+
+    #hero-right {
+        height: 40%;
+        max-height: 450px;
+        width: 65%;
+    }
+
+    #hero-right img{
+        object-fit: cover;
+        object-position: top;
+        max-width: 450px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 20px 24px 21px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    #hero-left p {
+        position: absolute;
+        display: none;
+        top: 18%;
+        font-size: 2rem;
+    }
+
+        /* -------------- APPRENDRE EN GROUPE --------------- */
+
+
+        
+    #apprendreEnGroupe {
+        height: calc(100vh + 40rem);
+        max-height: calc( 738px + 40rem);
+        min-height: calc( 526px + 40rem);
+    }
+
+    .aeg-bandeau {
+        background: #E4DDD7;
+        height: 40rem;
+    }
+
+    .aeg-content {
+        height: 100vh;
+        max-height: 738px;
+        min-height: 526px;
+    }
+
+    .aeg-bandeau-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 0 10%;
+    }
+
+    .aeg-bandeau-content section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+        height: 100%;
+    }
+
+    .aeg-bandeau-content img {
+        width: 40%;
+        object-fit: cover;
+    }
+
+    #aeg-left p {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        width: 100%;
+    }
+
+    #aeg-left h2{
+        font-size: 2rem;
+        letter-spacing: 3px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #aeg-left h5 {
+        font-size: 1.5rem;
+    }
+
+    #aeg-right {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0%;
+    }
+
+
+    /* -------------- Le bien être animal --------------- */
+
+    #be-content h2 {
+        /* font-size: 3.5vw; */
+        font-size: 2rem;
+        letter-spacing: 3px;
+        width: 90%;
+    }
+    
+    #be-content {
+        background: #7b7b76;
+        width: 100%;
+        height: 100%;
+        box-shadow:none;
+        border-radius: 0;
+        padding: 0 10%;
+    }
+
+    #be-content  section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+    }
+    
+    #be-content hr {
+        margin-top: 10%;
+        height: 2px;
+    }
+    
+    
+    #be-content p {
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        line-height: 20px;
+    }
+
+
+
+    /* -------------- Groupe Restreint --------------- */
+
+    #groupeRestreint {
+        background: #656C5C;
+        height: 100vh;
+    }
+
+    #gp-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    #gp-content section {
+        width: 100%;
+    }
+    
+    
+    #gp-right {
+        height: 60%;
+        align-items: center;
+    }
+    
+    #gp-left {
+        margin-top: 0;
+        position: relative;
+        height: 30%;
+        width: 100%;
+    }
+
+    #gp-left img {
+        width: 70%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #gp-right h2 {
+        font-size: 2.1rem;
+        letter-spacing: 1vw;
+        width: 90%;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    #gp-right p {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        width: 90%;
+        line-height: 15px;
+    }
+
+    /* -------------- CCM --------------- */
+
+    #ccm-header {
+        height: 15%;
+    }
+
+    #ccm-header hr {
+        display: none;
+    }
+
+    #ccm-header h2 {
+        /* font-size: 2.3vw; */
+        font-size: 1.8rem;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+
+    #ccm-content {
+        height: 85%;
+        flex-direction: column;
+    }
+
+
+    .cercle {
+        height: 40px;
+        width: 40px;
+        margin-top: 0;
+    }
+
+
+    .box {
+        justify-content: center;
+        width: 170px;
+        height: 170px;
+    }
+    
+    .box p {
+        font-size: 1.1rem;
+        letter-spacing: 3px;
+        margin-top: 20px;
+    }
+
+
+    .box h5 {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    /* -------------- Contact --------------- */
+
+    #contact-content {
+        max-width: 400px;
+        width: 80%;
+    }
+    
+    #contact-logo {
+        width: 70%;
+    }
+    
+    #contact-content p, h2, h1 {
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+    }
+    
+    #contact-content input{
+        font-size: 1.3rem;
+        border: 2px solid black;
+        padding: 10px 25px;
+    }
+
+    #couverture-resp {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+
+    /* -------------- Beauté Féline --------------- */
+    
+    .part-title h1{
+        position: absolute;
+        top: 60px;
+        right: 40px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #bf-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 7%;
+    }
+
+    #bf-header p {
+        font-size: 3.5vw;
+        letter-spacing: 3px;
+        margin-top: 10px;
+    }
+    
+    #bf-header img {
+        width: 30%;
+    }
+    
+    #bf-content {
+        flex-direction: column;
+        align-items: center;
+        height: 70%;
+        margin-top: 20px;
+    }
+    
+    #bf-content section {
+        width: 100%;
+    }
+    
+    #bf-right p:nth-of-type(1) {
+        font-size: 3vw;
+        letter-spacing: 2px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    #bf-right p:nth-of-type(2) {
+        text-align: center;
+        font-size: 2.8vw;
+        letter-spacing: 2px;
+    }
+    
+    #bf-right a {
+        font-size: 1.1rem;
+        padding: 7px 28px;
+        margin: 20px 0;        
+    }
+    
+    #bf-left {
+        justify-content: center;
+        height: 30%;
+    }
+    
+    
+    #bf-left img {
+        max-width: 400px;
+        width: auto;
+        height: 100%;
+    }
+    
+    #bf-right {
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    /* -------------- La suite Canine --------------- */
+    
+    #lsc {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    #lsc-header {
+        margin-top: 0;
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+    
+    #lsc-header h2 {
+        font-size: 4vw;
+        font-weight: bold;
+        letter-spacing: 8px;
+    }
+    
+    #lsc-header p {
+        font-size: 3vw;
+        letter-spacing: 3px;
+    
+    }
+    
+    #lsc-left p {
+        font-size: 3vw;
+        letter-spacing: 2px;
+        width: 100%;
+    }
+    
+    #lsc-content {
+        height: 80%;
+        margin-top: 0;
+        flex-direction: column;   
+
+    }
+    
+    
+    #lsc-content section{
+        width: 100%;
+    } 
+    
+    
+    #lsc-right {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        height: 30%;
+    }
+    
+    #lsc-right img {
+        width: auto;
+        height: 100%;
+    }
+    
+    #lsc-left {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        justify-content: flex-start;
+
+    }
+    
+    #lsc-left hr {
+        height: 1px;
+        width: 90%;
+    }
+
+    #lsc-contact p, a {
+        font-size: 3vw;
+        letter-spacing: 3px;
+        padding-bottom: 0;
+    }
+
+/* -------------- FOOTER --------------- */
+
+
+
+    footer img {
+        width: 18%;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+
+    footer a {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        padding: 0 2rem;
+    }
+
+    footer p {
+        margin-top: 15px;
+        font-size: 1.2rem;
+        letter-spacing: .2vw;
+
+    }
+
+}
+
